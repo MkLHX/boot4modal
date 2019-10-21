@@ -1,0 +1,10 @@
+theme: jekyll-theme-tactile
+plugins:
+  - jekyll-seo-tag
+repository: MkLHX/boot4modal
+social:
+  name: Jeedom
+  links:
+    - https://twitter.com/mklhx
+    - https://github.com/mklhx
+    - https://www.linkedin.com/in/mickael-lehoux/
