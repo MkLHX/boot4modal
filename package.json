@@ -1,25 +1,19 @@
 {
-  "name": "boot4alert",
-  "version": "1.0.1",
-  "description": "light weight Js alert & confirm message box with bootstrap 4 modal ",
-  "main": "boot4alert.js",
-  "directories": {
-    "test": "tests"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "name": "boot4modal",
+  "version": "0.0.1",
+  "description": "Easy & Light weight Javascripts lib allow you to create alert or confirm modal based on Bootstrap 4.3.1 modals",
+  "main": "boot4modal.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fixxyzeal/boot4alert.git"
+    "url": "git+https://github.com/MkLHX/boot4modal.git"
   },
   "keywords": [
-    "boot4alert"
+    "boot4modal"
   ],
-  "author": "chanchai jeimvijack",
+  "author": "Mickael Lehoux",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/fixxyzeal/boot4alert/issues"
+    "url": "https://github.com/MkLHX/boot4modal/issues"
   },
-  "homepage": "https://github.com/fixxyzeal/boot4alert#readme"
+  "homepage": "https://github.com/MkLHX/boot4modal#readme"
 }

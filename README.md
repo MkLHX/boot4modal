@@ -1,12 +1,16 @@
-# boot4alert
-boot4alert.js Easy &amp; Light weight Javascripts library allow you to create alert or confirm message with Bootstrap 4 modals :)
+# boot4modal
+boot4modal.js Easy &amp; Light weight Javascripts lib allow you to create alert or confirm modal based on Bootstrap 4.3.1 modals
 
 # Getting Started 
 
 Dependencies
 
-- [Bootrap version 4.x.x](https://getbootstrap.com/docs/4.2/getting-started/download/)
-- [Jquery version 3.3.1](https://jquery.com/download/)
+- Bootrap version 4.3.1
+- Jquery version 3.3.1
+- Popper.js version 1.14.7
+
+[official CDNs](https://www.bootstrapcdn.com/)
+
 
 # Example
   - Alert message
@@ -62,6 +66,9 @@ Dependencies
     });
   </script>
   ```
-  # Donate
-  Please donate to encourage and support ^ ^ 
-  Paypal : http://bit.ly/2FCa13E
+
+# enjoy
+Enjoy and use it!
+
+# credits
+[based on @fixxyzeal project](https://github.com/fixxyzeal/boot4alert)
