@@ -16,54 +16,43 @@ Dependencies
   - Alert message
   ```javascript
   <script>
-  boot4.alert("Hello World!", "OK");
+    boot4.alert("Hello World!", "OK");
   </script>
   ```
   - Alert message with callback function
   ```javascript
-   <script>
+  <script>
     boot4.alert(
-      {
-        msg: "Call Back",
-        title: "Test Callback",
-        callback: function() {
-          console.log("callback");
+        {
+            title: 'boot4modal alert popup',
+            msg: 'This is a simple alert popup',
+            centered: true
         }
-      },"OK");
-    </script>
-   ```
-  - Custom Background-color Header Alert message
-  ```javascript
-     <script>
-     boot4.alert(
-      {
-        msg: "Custom Title",
-        title: "Test",
-        style: {
-          "background-color": "#6200ea",
-          color: "white",
-          "font-weight": "bold"
-        }
-      },
-      "OK"
     );
-    </script>
+  </script>
    ```
   - Confirm message
   ```javascript
   <script>
-   boot4.confirm({
-      msg: "Confirm",
-      title: "Test Confirm",
-      callback: function(result) {
-        if(result){
-          console.log("ok");
+    boot4.confirm(
+        {
+            title: 'boot4modal confirm popup',
+            msg: 'This is a confirm popup, callback is run on each buttons',
+            buttons_labels: {
+                cancel_btn: 'Cancel',
+                ok_btn: 'Ok'
+            },
+            centered: true,
+            callback: function (result) {
+                if (result) {
+                    alert("ok clicked");
+                }
+                else {
+                    alert("cancel clicked");
+                }
+            }
         }
-        else{
-          console.log("cancel");
-        }
-      }
-    });
+    );
   </script>
   ```
 
@@ -71,4 +60,6 @@ Dependencies
 Enjoy and use it!
 
 # credits
+[MkLHX](https://github.com/MkLHX/boot4modal)
+
 [based on @fixxyzeal project](https://github.com/fixxyzeal/boot4alert)
