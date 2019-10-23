@@ -23,13 +23,29 @@
         <div class="col-12 col-xl-8">
             <div class="navbar navbar-expand-lg navbar-light bg-light">
                 <a class="navbar-brand" href="/boot4modal">Boot4Modal.js</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+                <div class="collapse navbar-collapse" id="navbar">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#alert">Alert <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#alert-callback">Alert Callback</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#confirm">Confirm</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </header>
-    <main class="row no-gutters justify-content-center min-vh-100 vh-100">
+    <main id="main" class="row no-gutters justify-content-center">
         <div class="col-12 col-xl-8 pt-5 bg-light">
             <div class="row no-gutters justify-content-center">
                 <div class="col-10 col-md-8">
@@ -39,10 +55,8 @@
                             This is a huge tool to make beautiful popup and manage callbacks!
                         </h2>
                     </section>
-                    <section class="w-100 px-3 py-5 alert-info shadow mb-5">
-                        <button class="close" disabled style="margin-top: -40px;">
-                            <span>&times;</span>
-                        </button>
+                    <section id="alert" class="w-100 px-3 py-5 alert-info shadow mb-5">
+                        <button class="close" disabled style="margin-top: -40px;"><span>&times;</span></button>
                         <p class="alert-heading text text-center text-md-left">
                             Here an example of using <strong>Boot4Modal.js</strong> has an <strong>alert only.</strong>
                         </p>
@@ -57,10 +71,8 @@
                             <pre class="text-left bg-secondary m-0 p-2 text-white" style="min-height: 20vh;"></pre>
                         </div>
                     </section>
-                    <section class="w-100 px-3 py-5 alert-warning shadow mb-5">
-                        <button class="close" disabled style="margin-top: -40px;">
-                            <span>&times;</span>
-                        </button>
+                    <section id="alert-callback" class="w-100 px-3 py-5 alert-warning shadow mb-5">
+                        <button class="close" disabled style="margin-top: -40px;"><span>&times;</span></button>
                         <p class="text text-center text-md-left">
                             Here an example of using <strong>Boot4Modal.js</strong> has an <strong>alert with callback actions.</strong>
                         </p>
@@ -75,10 +87,8 @@
                             <pre class="text-left bg-secondary text-white m-0 p-2" style="min-height: 20vh;"></pre>
                         </div>
                     </section>
-                    <section class="w-100 px-3 py-5 alert-success shadow mb-5">
-                        <button class="close" disabled style="margin-top: -40px;">
-                            <span>&times;</span>
-                        </button>
+                    <section id="confirm" class="w-100 px-3 py-5 alert-success shadow mb-5">
+                        <button class="close" disabled style="margin-top: -40px;"><span>&times;</span></button>
                         <p class="text text-center text-md-left">
                             Here an example of using <strong>Boot4Modal.js</strong> has a <strong>confirm with callback actions.</strong>
                         </p>
@@ -93,19 +103,23 @@
                             <pre class="text-left bg-secondary text-white m-0 p-2" style="min-height: 20vh;"></pre>
                         </div>
                     </section>
-                    <section class="w-100 px-3 py-5 alert-light shadow mb-5">
+                    <section id="install" class="w-100 px-3 py-5 alert-light shadow mb-5">
+                        <button class="close" disabled style="margin-top: -40px;"><span>&times;</span></button>
                         <p class="alert-heading text text-center text-md-left">
                             How to use it? <strong>just add this</strong>
                         </p>
-                        <pre class="text-left bg-secondary m-0 p-2 text-white" style="min-height: 5vh;">&lt;script type="text/javascript" src="https://cdn.jsdelivr.net/gh/MkLHX/boot4modal/boot4modal.js"&gt;&lt;/script&gt;</pre>
+                        <hr>
+                        <pre class="text-left bg-secondary m-0 p-2 text-white" style="min-height: 5vh;"><code>&lt;script type="text/javascript" src="https://cdn.jsdelivr.net/gh/MkLHX/boot4modal/boot4modal.js"&gt;&lt;/script&gt;</code>
+                            <span class="position-absolute mt-1" style="right: 25px;"><a class="text-decoration-none text-light copy" role="button"><i class="far fa-copy fa-2x"></i></a></span>
+                        </pre>
                     </section>
                 </div>
             </div>
         </div>
     </main>
-    <footer class="row no-gutters justify-content-center fixed-bottom">
+    <footer class="row no-gutters justify-content-center">
         <div class="col-12 col-xl-8 bg-light text-secondary text-center align-self-center">
-            <ul class="list-inline">
+            <ul id="about" class="list-inline">
                 <li class="list-inline-item">made with <i class="fas fa-heart text-danger"></i> by <a href="https://github.com/MkLHX">MkLHX</a></li>
             </ul>
         </div>

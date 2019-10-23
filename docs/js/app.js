@@ -45,4 +45,15 @@ $(function () {
             }
         );
     });
+    $('.copy').on('click', function (e) {
+        let parent = e.target;
+        let target = $('#install').find('pre').find('code');
+        target.after('<textarea class="d-none"></textarea>');
+        let txta = $('#install').find('textarea');
+        txta.text(target.text());
+        txta.select();
+        target.addClass('bg-light text-dark');
+        parent.
+        document.execCommand('copy');
+    });
 });
