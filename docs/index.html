@@ -20,14 +20,14 @@
 
 <body class="container-fluid p-0">
     <header class="row no-gutters justify-content-center fixed-top">
-        <div class="col-12 col-xl-8">
+        <div class="col-12 col-xl-8 shadow-lg">
             <div class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="/boot4modal">Boot4Modal.js</a>
+                <a class="navbar-brand" href="https://mklhx.github.io/boot4modal">Boot4Modal.js</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbar">
-                    <ul class="navbar-nav mr-auto">
+                    <ul class="navbar-nav mr-auto d-block d-md-none">
                         <li class="nav-item active">
                             <a class="nav-link" href="#alert">Alert <span class="sr-only">(current)</span></a>
                         </li>
@@ -36,6 +36,9 @@
                         </li>
                         <li class="nav-item active">
                             <a class="nav-link" href="#confirm">Confirm</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#install">Use It!</a>
                         </li>
                         <li class="nav-item active">
                             <a class="nav-link" href="#about">About</a>
@@ -50,7 +53,7 @@
             <div class="row no-gutters justify-content-center">
                 <div class="col-10 col-md-8">
                     <section class="w-100 px-3 py-5 text-center">
-                        <h1>Welcome to Boot4Modal.js!</h1>
+                        <h1>Welcome to Boot4Modal.js!<a href="#boot4modal.js" class="text-dark h5"><i class="fas fa-link fa-1x"></i></a></h1>
                         <h2 class="text text-center h4">
                             This is a huge tool to make beautiful popup and manage callbacks!
                         </h2>
@@ -58,7 +61,7 @@
                     <section id="alert" class="w-100 px-3 py-5 alert-info shadow mb-5">
                         <button class="close" disabled style="margin-top: -40px;"><span>&times;</span></button>
                         <p class="alert-heading text text-center text-md-left">
-                            Here an example of using <strong>Boot4Modal.js</strong> has an <strong>alert only.</strong>
+                            Here an example of using <strong>Boot4Modal.js</strong> has an <strong>alert only.</strong> <a href="#alert-only" class="text-info"><i class="fas fa-link fa-1x"></i></a>
                         </p>
                         <hr>
                         <div class="text-center pt-5">
@@ -74,7 +77,7 @@
                     <section id="alert-callback" class="w-100 px-3 py-5 alert-warning shadow mb-5">
                         <button class="close" disabled style="margin-top: -40px;"><span>&times;</span></button>
                         <p class="text text-center text-md-left">
-                            Here an example of using <strong>Boot4Modal.js</strong> has an <strong>alert with callback actions.</strong>
+                            Here an example of using <strong>Boot4Modal.js</strong> has an <strong>alert with callback actions.</strong> <a href="#alert-callback" class="text-warning"><i class="fas fa-link fa-1x"></i></a>
                         </p>
                         <hr>
                         <div class="text-center pt-5">
@@ -90,7 +93,7 @@
                     <section id="confirm" class="w-100 px-3 py-5 alert-success shadow mb-5">
                         <button class="close" disabled style="margin-top: -40px;"><span>&times;</span></button>
                         <p class="text text-center text-md-left">
-                            Here an example of using <strong>Boot4Modal.js</strong> has a <strong>confirm with callback actions.</strong>
+                            Here an example of using <strong>Boot4Modal.js</strong> has a <strong>confirm with callback actions.</strong> <a href="#confirm" class="text-success"><i class="fas fa-link fa-1x"></i></a>
                         </p>
                         <hr>
                         <div class="text-center pt-5">
@@ -106,7 +109,9 @@
                     <section id="install" class="w-100 px-3 py-5 alert-light shadow mb-5">
                         <button class="close" disabled style="margin-top: -40px;"><span>&times;</span></button>
                         <p class="alert-heading text text-center text-md-left">
-                            How to use it? <strong>just add this</strong>
+                            How to use it? 
+                            you need bootstrap 4.3.1 <a href="https://getbootstrap.com/">CDN</a>
+                            and then <strong>just add this.</strong> <a href="#install" class="text-secondary"><i class="fas fa-link fa-1x"></i></a>
                         </p>
                         <hr>
                         <pre class="text-left bg-secondary m-0 p-2 text-white" style="min-height: 5vh;"><code>&lt;script type="text/javascript" src="https://cdn.jsdelivr.net/gh/MkLHX/boot4modal/boot4modal.js"&gt;&lt;/script&gt;</code>
