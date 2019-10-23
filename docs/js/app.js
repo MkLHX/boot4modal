@@ -1,21 +1,5 @@
 $(function () {
     console.debug('ready!');
-
-    // function loadSnippets(path) {
-    //     return $.ajax({
-    //         url: path,
-    //         dataType: 'text',
-    //         success: function (data) {
-    //             console.debug(data);
-    //         }
-    //     });
-    // }
-    // $('#snippet-alert').find('mark-down').load('snippets/alert_only.md');
-    // $('#snippet-alert-callback').find('mark-down').load('snippets/alert_callback.md');
-    // $('#snippet-confirm').find('mark-down').load('snippets/confirm.md');
-    // $('#snippet-alert-code').load('file.txt');
-    // loadSnippets('file.txt');
-
     $('#lnalert').on('click', function () {
         boot4.alert(
             {
