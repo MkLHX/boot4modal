@@ -1,5 +1,5 @@
 # boot4modal
-boot4modal.js Easy &amp; Light weight Javascripts lib allow you to create alert or confirm modal based on Bootstrap 4.3.1 modals
+boot4modal.js Easy &amp; Light weight Javascripts lib allow you to create alert or confirm popups based on Bootstrap 4.3.1 modals
 
 # Getting Started 
 
