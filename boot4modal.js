@@ -126,7 +126,6 @@ function processCallback(e, dialog, callback, result) {
 	}
 }
 dialog.on("click", ".boot4ok", function (e) {
-	console.debug(e.target);
 	processCallback(e, dialog, callbacks.onEscape, true);
 });
 dialog.on("click", ".boot4cancel", function (e) {
