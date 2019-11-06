@@ -1,3 +1,9 @@
+/*!
+ * boot4modal.js v0.0.1
+ * https://mklhx.github.io/boot4modal/
+ * (c) 2019 boot4modal.js Contributors
+ * Released under the MIT License
+ */
 "use strict";
 
 if (typeof define === "function" && define.amd) {
