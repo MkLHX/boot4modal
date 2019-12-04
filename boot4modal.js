@@ -1,5 +1,5 @@
 /*!
- * boot4modal.js v0.0.1
+ * boot4modal.js v0.0.2
  * https://mklhx.github.io/boot4modal/
  * (c) 2019 boot4modal.js Contributors
  * Released under the MIT License

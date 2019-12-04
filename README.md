@@ -71,7 +71,7 @@ Dependencies
 # installation
 just add this in your template
 ```javascript
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/MkLHX/boot4modal@0.0.1/boot4modal.js"></script>;
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/MkLHX/boot4modal@0.0.2/boot4modal.js"></script>;
 ```
 
 # enjoy
