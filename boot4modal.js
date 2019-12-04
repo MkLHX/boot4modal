@@ -72,8 +72,28 @@ function Initial(properties, bootModalOptions) {
 	if (properties.confirmBox != undefined) {
 		dialog.find(".modal-footer").html(modalTemplate.buttonConfirm);
 		if (properties.buttons_labels != undefined) {
-			dialog.find(".boot4cancel").text(properties.buttons_labels.cancel_btn);
-			dialog.find(".boot4ok").text(properties.buttons_labels.ok_btn);
+			if (properties.buttons_labels.cancel_btn != undefined) {
+				dialog.find(".boot4cancel").text(properties.buttons_labels.cancel_btn);
+			}
+			if (properties.buttons_labels.ok_btn != undefined) {
+				dialog.find(".boot4ok").text(properties.buttons_labels.ok_btn);
+			}
+		}
+		if (properties.buttons_colors != undefined) {
+			if (properties.buttons_colors.cancel_btn != undefined) {
+				dialog.find(".boot4cancel").removeClass('btn-light').css('background-color', properties.buttons_colors.cancel_btn);
+			}
+			if (properties.buttons_colors.ok_btn != undefined) {
+				dialog.find(".boot4ok").removeClass('btn-info').css('background-color', properties.buttons_colors.ok_btn);
+			}
+		}
+		if (properties.buttons_classes != undefined) {
+			if (properties.buttons_classes.cancel_btn != undefined) {
+				dialog.find(".boot4cancel").removeClass('btn-light').addClass(properties.buttons_classes.cancel_btn);
+			}
+			if (properties.buttons_classes.ok_btn != undefined) {
+				dialog.find(".boot4ok").removeClass('btn-info').addClass(properties.buttons_classes.ok_btn);
+			}
 		}
 	} else {
 		dialog.find(".modal-footer").html(modalTemplate.button);
